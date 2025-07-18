@@ -1,0 +1,14 @@
+{
+  "name": "pixel-music-player",
+  "version": "1.0.0",
+  "description": "A beautiful retro-style web music player with animated backgrounds",
+  "main": "index.html",
+  "keywords": ["music", "player", "pixel", "retro", "web", "html5"],
+  "author": "Yash Chandnani",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yashchandnani07/Music-Player.git"
+  },
+  "homepage": "https://github.com/yashchandnani07/Music-Player"
+}

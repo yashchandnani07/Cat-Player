@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Retro Animated Background -->
+    <div class="retro-background">
+        <!-- Gradient Background -->
+        <div class="gradient-bg"></div>
+        
+        <!-- Noise Texture Overlay -->
+        <div class="noise-overlay"></div>
+
+        <!-- Floating Geometric Elements -->
+        
+        <!-- Large Corner Elements -->
+        <div class="floating-element square square-1"></div>
+        <div class="floating-element hexagon hexagon-1"></div>
+        <div class="floating-element diamond diamond-1"></div>
+        <div class="floating-element star star-1"></div>
+
+        <!-- Medium Floating Elements -->
+        <div class="floating-element triangle triangle-1"></div>
+        <div class="floating-element circle circle-1"></div>
+        <div class="floating-element cross cross-1"></div>
+        <div class="floating-element diamond diamond-2"></div>
+        <div class="floating-element hexagon hexagon-2"></div>
+
+        <!-- Small Scattered Elements -->
+        <div class="floating-element square small-square-1"></div>
+        <div class="floating-element circle small-circle-1"></div>
+        <div class="floating-element triangle small-triangle-1"></div>
+        <div class="floating-element diamond small-diamond-1"></div>
+        <div class="floating-element star small-star-1"></div>
+
+        <!-- Tiny Detail Elements -->
+        <div class="floating-element circle tiny-1"></div>
+        <div class="floating-element square tiny-2"></div>
+        <div class="floating-element triangle tiny-3"></div>
+
+        <!-- Pulsing Background Elements -->
+        <div class="floating-element pulse-large"></div>
+        <div class="floating-element pulse-medium"></div>
+
+        <!-- Orbiting Elements -->
+        <div class="floating-element orbit-container-1">
+            <div class="orbit-element-1"></div>
+        </div>
+        <div class="floating-element orbit-container-2">
+            <div class="orbit-element-2"></div>
+        </div>
+
+        <!-- Floating Particles -->
+        <div class="floating-element particle-1"></div>
+        <div class="floating-element particle-2"></div>
+        <div class="floating-element particle-3"></div>
+    </div>
+
+    <div class="mini-player-container">
+        <div class="mini-player-card">
+            <div class="mini-player-header">
+                <span id="song-title">Out of Time - Unknown Artist</span>
+            </div>
+            <div class="mini-player-artwork" id="mini-artwork">
+                <i class="fas fa-music"></i>
+            </div>
+            <div class="mini-player-progress">
+                <input type="range" id="progress-bar" min="0" max="100" value="0">
+                <div class="time-display">
+                    <span id="current-time">0:00</span>
+                    <span id="total-time">0:00</span>
+                </div>
+            </div>
+            <div class="mini-player-controls">
+                <button class="mini-btn" id="prev-btn"><i class="fas fa-backward"></i></button>
+                <button class="mini-btn play-btn" id="play-btn"><i class="fas fa-play"></i></button>
+                <button class="mini-btn" id="next-btn"><i class="fas fa-forward"></i></button>
+            </div>
+            <div class="mini-player-footer">
+                <button class="mini-btn heart-btn" id="favorite-btn"><i class="fas fa-heart"></i></button>
+                <span class="mini-hearts">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
