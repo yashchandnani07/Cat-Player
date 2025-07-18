@@ -31,7 +31,7 @@ A retro-themed, visually rich music player built with HTML, CSS, and JavaScript.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/pixel-music-player.git
+    git clone https://github.com/yashchandnani07/Cat-Player.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
@@ -62,4 +62,4 @@ A retro-themed, visually rich music player built with HTML, CSS, and JavaScript.
 
 ## Deployment
 
-This project is deployed on Vercel. You can view the live version here: [https://pixel-music-player-qiraxdwoo-yashchandnani07-6879s-projects.vercel.app](https://pixel-music-player-qiraxdwoo-yashchandnani07-6879s-projects.vercel.app)
+This project is deployed on Vercel. You can view the live version here: [Click for maggic!](https://pixel-music-player-qiraxdwoo-yashchandnani07-6879s-projects.vercel.app)
